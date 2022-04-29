@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <title>Contact Flora</title>
+    </head>   
+    
+    <body class="parent">
+        
+        <header> 
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="catalogus.html">Catalogus</a>
+                        </li>
+                        <li>
+                            <a href="catalogus.html#bruidsboeketten">Bruidsboeketten</a>
+                        </li>
+                         <li>
+                            <a href="catalogus.html#tafelstukken">Tafelstukken</a>
+                        </li>
+                        <li>
+                            <a href="catalogus.html#kleurrijk">Kleurrijk</a>
+                        </li>
+                        <li>
+                            <a href="catalogus.html#rouwstukken">Rouwstukken</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>      
+       
+        <main>     
+                
+            <h1> Contact</h1>
+            <hr>
+
+            <div class="tekstblokcontainer">
+                <div>
+                    <img class="desktoponly" src="./afbeeldingen/pexels-amina-filkins-5410101.jpg" width="600px" >
+                </div>     
+
+                
+                <div class="adres">
+                    <p>
+                    <h2>Je vindt ons in het centrum van Westeinde </h2> <br>
+                    <hr>
+                        Tulpstraat 18 <br>
+                        1234 AB Westeinde <br>
+                        012-3456789 <br>
+                    </p> 
+                </div>            
+                
+                <div class="opening">
+                    <h2>openingstijden</h2>
+                    <hr>
+                    <p>
+                        <h3>Wij zijn open maandag t/m zaterdag<br>
+                        van 10:00 tot 18:00 uur.</h3>
+                    </p>
+                </div>
+                <div>    
+                    <img src="./afbeeldingen/pexels-amina-filkins-5410138.jpg">
+                </div>
+            </div>
+
+            <div>
+                <p>
+                    <h3>Heb je een vraag of wil je graag een boeket bestellen? <br>
+                    Vul dan onderstaand contactformulier in.</h3>
+                </p> 
+            </div>  
+            <hr>
+                               
+            <div id="contactformulier" class="contactformulier">
+                <form class="contact" name="contact" method="POST" data-netlify="true">
+                    <div>
+                        <label>Naam</label> 
+                        <input type="text" name="name" required/>
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" required/>
+                    </div>
+                    <div>
+                        <label>Telefoonnummer</label> 
+                         <input type="tel" name="phone" />
+                    </div>
+                    <div>
+                        <label>Bezorgdatum</label> 
+                        <input type="date" name="date" min="today" />
+                    </div>
+                    <div>
+                        <label>Opmerking</label> 
+                        <textarea maxlength="500" name="opmerking"></textarea>
+                    </div>
+                    <div>
+                        <label>Voorbeeld</label> 
+                         <input type="file" name="file" />
+                    </div>
+                    <button type="submit">Versturen</button>
+                    <button type="reset">Reset</button>
+                            
+                </form> 
+            </div>        
+                
+        </main>
+
+        <footer>
+            <div>
+               <h3> <a href="index.html">Flora</a></h3>
+            </div>
+        </footer>
+    
+
+
+
+    </body>
+
+</html>

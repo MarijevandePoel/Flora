@@ -102,12 +102,13 @@ img{
 }
 
 .contactformulier {
-    color:#555555;
-    width: 50%;
+    color: #555555;
+    width: 100%;
     border-radius: 10px;
     padding: 20px;
-    margin: 0px;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 form {
@@ -296,8 +297,13 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 20px;
+
     }    
+
+
+
 }    
+
 
 
 
